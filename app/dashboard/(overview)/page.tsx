@@ -11,6 +11,11 @@ import {
   CardsSkeleton, 
 } from '@/app/ui/skeletons';
 // import { users, customers, invoices, revenue } from '@/app/lib/placeholder-data';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
  
 export default async function Page() {
   // const revenue = await fetchRevenue();
